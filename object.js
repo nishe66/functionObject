@@ -27,12 +27,11 @@ let person = {
 function addNewProperty(objName, cityName){
       objName.city = cityName;
 }
-console.log(person);
+
 addNewProperty(person, "Toronto");
 console.log(person);
 
 // output answer: 
-// { fullName: 'John Doe', age: 30 }
 // { fullName: 'John Doe', age: 30, city: 'Toronto' }
 // -----------------------------------------------------------------------------------------
 
@@ -64,15 +63,14 @@ let car = {
     model: "X5",
    
 };
-function updateCarModel(carobjName, newModel){
-    carobjName.model = newModel;
+function updateCarModel(carObj, newModel){
+    carObj.model = newModel;
 }
-console.log(car);
+
 updateCarModel(car, "X7"); 
 console.log(car);
 
 // output answer: 
-// { brand: 'BMW', model: 'X5' }
 // { brand: 'BMW', model: 'X7' }
 
 //------------------------------------------------------------------------------------------
