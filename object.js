@@ -21,10 +21,10 @@ console.log("sum of the numbers:" + sumArrayNumbers(arrayNumber));
 let person = {
     fullName: "John Doe",
     age: 30,
+  
   };
 
- 
-function addNewProperty(objName, cityName){
+ function addNewProperty(objName, cityName){
       objName.city = cityName;
 }
 
@@ -44,7 +44,6 @@ function checkEvenOrOdd(number){
      else{
        return "Odd";
      }
-     
      
 }
 
