@@ -28,12 +28,12 @@ function addNewProperty(objName, cityName){
       objName.city = cityName;
 }
 console.log(person);
-addNewProperty(person, "Canada");
+addNewProperty(person, "Toronto");
 console.log(person);
 
 // output answer: 
 // { fullName: 'John Doe', age: 30 }
-// { fullName: 'John Doe', age: 30, city: 'Canada' }
+// { fullName: 'John Doe', age: 30, city: 'Toronto' }
 // -----------------------------------------------------------------------------------------
 
 // 3.Write a function that takes a number and returns whether it is even or odd.
@@ -90,17 +90,18 @@ function forEachProperty(obj){
 let student = {
   firstName: "Alice",
   lastName: "Sen",
-  town: "America",
+  country: "America",
   idNO: 23,
 
 };
 
 forEachProperty(student);
 
+
 // output answer:
 // firstName: Alice
 // lastName: Sen
-// town: America
+// country: America
 // idNO: 23
 
 
